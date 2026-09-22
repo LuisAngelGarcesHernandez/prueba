@@ -36,3 +36,4 @@ def test_ejecutar_entrega_pickup_devuelve_mensaje_correcto():
     resultado = metodo.ejecutarEntrega(pedido)
 
     assert "recoger" in resultado.lower()
+    #prueba verificada en sprint 1
